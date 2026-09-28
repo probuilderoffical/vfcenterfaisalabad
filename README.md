@@ -5,10 +5,10 @@ Official presentation and leasing website for VF Center Faisalabad, Main Jail Ro
 ## Local preview
 
 ```bash
-python3 -m http.server 4173 -d dist
+python3 -m http.server 4173
 ```
 
-The source is a lightweight static site in `dist/`, organized into conversion-friendly sections and reusable shared assets. Forms intentionally hand off to WhatsApp rather than simulating a backend submission.
+The GitHub Pages-ready website is served directly from the repository root. A matching `dist/` package is retained for other static-hosting workflows. Forms intentionally hand off to WhatsApp rather than simulating a backend submission.
 
 ## Content policy
 
